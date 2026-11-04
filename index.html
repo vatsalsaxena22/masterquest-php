@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="MasterQuest — Build, learn and master PHP through practical projects and reusable software applications."
+    />
+    <meta name="theme-color" content="#777BB4" />
+    <title>MasterQuest | Build. Learn. Master.</title>
+
+    <link rel="icon" href="assets/images/masterquest-logo.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- ========================= HEADER ========================= -->
+
+    <header class="ds-header sticky-top" id="siteHeader">
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-md py-3"
+          aria-label="Primary navigation"
+        >
+          <a
+            href="#"
+            class="d-inline-flex align-items-center gap-2 text-decoration-none text-dark fw-semibold"
+          >
+            <img
+              class="brand-logo"
+              src="assets/images/masterquest-logo.svg"
+              width="40"
+              height="40"
+              alt=""
+            />
+            <span>MasterQuest PHP</span>
+          </a>
+
+          <button
+            class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list fs-2"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-md-center gap-md-3">
+              <li class="nav-item">
+                <a class="nav-link text-secondary fw-semibold" href="#products"
+                  >Products</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-secondary fw-semibold"
+                  href="#capabilities"
+                  >Capabilities</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-secondary fw-semibold" href="#stack"
+                  >Stack</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-secondary fw-semibold" href="#roadmap"
+                  >Roadmap</a
+                >
+              </li>
+
+              <li class="nav-item ms-md-2">
+                <a class="btn btn-primary px-4" href="./apps.php">
+                  Explore Apps
+                  <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- ========================= HERO ========================= -->
+
+      <section class="ds-hero" id="home">
+        <div class="ds-hero-glow ds-hero-glow-one"></div>
+        <div class="ds-hero-glow ds-hero-glow-two"></div>
+
+        <div class="container position-relative">
+          <div class="row align-items-center g-4 g-lg-5">
+            <div class="col-lg-8">
+              <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+                <span class="badge text-bg-primary">
+                  <i class="bi bi-code-slash me-1"></i>
+                  Traditional PHP Stack
+                </span>
+
+                <span class="small text-secondary">10 practical projects</span>
+              </div>
+
+              <h1 class="display-2 fw-bold lh-1 mt-4">
+                Build. Learn.<br />
+                <span class="text-gradient">Master.</span>
+              </h1>
+
+              <p class="lead text-secondary mt-4 ds-hero-description">
+                A practical project-based journey through PHP + MySQL. Start
+                with simple applications, build real-world systems and progress
+                toward advanced business software.
+              </p>
+
+              <div
+                class="d-grid d-sm-flex flex-wrap align-items-center gap-3 mt-4"
+              >
+                <a href="./apps.php" class="btn btn-primary btn-lg">
+                  <i class="bi bi-grid-3x3-gap me-2"></i>
+                  Explore Apps
+                </a>
+
+                <a href="#stack" class="btn btn-outline-secondary btn-lg">
+                  <i class="bi bi-layers me-2"></i>
+                  Technology Stack
+                </a>
+              </div>
+
+              <div
+                class="d-flex flex-wrap gap-3 mt-4 text-secondary small fw-semibold"
+              >
+                <span class="d-inline-flex align-items-center gap-2">
+                  <i class="bi bi-check2-circle"></i> PHP + MySQL
+                </span>
+                <span class="d-inline-flex align-items-center gap-2">
+                  <i class="bi bi-check2-circle"></i> Bootstrap 5.3.8
+                </span>
+                <span class="d-inline-flex align-items-center gap-2">
+                  <i class="bi bi-check2-circle"></i> Vanilla JavaScript
+                </span>
+                <span class="d-inline-flex align-items-center gap-2">
+                  <i class="bi bi-check2-circle"></i> Real-world projects
+                </span>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card border-0 shadow-lg">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-between gap-3"
+                  >
+                    <span class="small text-secondary">MasterQuest</span>
+
+                    <span class="status-dot">
+                      <span></span>
+                      Ready to build
+                    </span>
+                  </div>
+
+                  <div class="d-flex align-items-end gap-3 my-4">
+                    <strong class="hero-stat-number">10</strong>
+                    <span class="small text-secondary lh-sm">
+                      projects to build
+                    </span>
+                  </div>
+
+                  <div
+                    class="progress rounded-pill hero-progress"
+                    role="progressbar"
+                    aria-label="MasterQuest progress"
+                  >
+                    <div
+                      class="progress-bar bg-primary rounded-pill"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+
+                  <div
+                    class="d-flex justify-content-between small text-secondary mt-2"
+                  >
+                    <span>Beginner</span>
+                    <span>Advanced</span>
+                  </div>
+
+                  <div class="d-grid gap-2 mt-4" id="heroFeatures"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= CAPABILITIES ========================= -->
+
+      <section class="section-padding bg-light" id="capabilities">
+        <div class="container">
+          <div class="section-heading">
+            <span class="ds-eyebrow">
+              <i class="bi bi-stars"></i>
+              What you can build
+            </span>
+
+            <h2 class="h2 fw-bold mt-2">
+              From simple utilities to real business software.
+            </h2>
+
+            <p class="lead text-secondary mt-3 mb-0">
+              Learn by building applications around common real-world
+              requirements instead of isolated coding exercises.
+            </p>
+          </div>
+
+          <div class="row g-4" id="capabilityGrid"></div>
+        </div>
+      </section>
+
+      <!-- ========================= PRODUCTS ========================= -->
+
+      <section class="section-padding" id="products">
+        <div class="container">
+          <div
+            class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-4 mb-4"
+          >
+            <div>
+              <span class="ds-eyebrow">
+                <i class="bi bi-box-seam"></i>
+                Project catalog
+              </span>
+
+              <h2 class="h2 fw-bold mt-2">
+                10 projects to build your mastery.
+              </h2>
+
+              <p class="lead text-secondary mt-3 mb-0">
+                Progress from beginner CRUD applications to advanced business
+                platforms.
+              </p>
+            </div>
+
+            <div class="catalog-tools">
+              <label class="input-group">
+                <span class="input-group-text bg-white"
+                  ><i class="bi bi-search"></i
+                ></span>
+
+                <input
+                  id="productSearch"
+                  type="search"
+                  class="form-control"
+                  placeholder="Search projects..."
+                  aria-label="Search projects"
+                />
+              </label>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4"
+          >
+            <div>
+              <h3 class="h6 fw-bold mb-1">Choose your learning level</h3>
+              <p class="small text-secondary mb-0">
+                Filter the catalog by your current experience.
+              </p>
+            </div>
+            <div
+              class="d-flex flex-wrap gap-2"
+              role="group"
+              aria-label="Filter projects"
+              id="productFilters"
+            ></div>
+          </div>
+
+          <div class="row g-4" id="productGrid"></div>
+
+          <div id="noResults" class="empty-state d-none">
+            <i class="bi bi-search"></i>
+
+            <h3 class="h5 fw-semibold mt-3">No projects found</h3>
+
+            <p class="text-secondary small mb-0">
+              Try another keyword or choose a different level.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= STACK ========================= -->
+
+      <section class="section-padding bg-light" id="stack">
+        <div class="container">
+          <div class="section-heading">
+            <span class="ds-eyebrow">
+              <i class="bi bi-layers"></i>
+              Technology stack
+            </span>
+
+            <h2 class="h2 fw-bold mt-2">
+              Simple technology. Serious outcomes.
+            </h2>
+
+            <p class="lead text-secondary my-3">
+              Learn with familiar, deployable technologies without unnecessary framework complexity.
+            </p>
+          </div>
+
+          <div class="row g-4" id="stackGrid"></div>
+        </div>
+      </section>
+
+      <!-- ========================= ROADMAP ========================= -->
+
+      <section class="section-padding" id="roadmap">
+        <div class="container">
+          <div class="section-heading text-center mx-auto">
+            <span class="ds-eyebrow">
+              <i class="bi bi-signpost-split"></i>
+              MasterQuest roadmap
+            </span>
+
+            <h2 class="h2 fw-bold mt-2">
+              A clear path from beginner to advanced.
+            </h2>
+
+            <p class="lead text-secondary mt-3 mb-0">
+              Build progressively more complex applications while strengthening
+              your PHP development fundamentals.
+            </p>
+          </div>
+
+          <div class="roadmap" id="roadmapList"></div>
+        </div>
+      </section>
+
+      <!-- ========================= CTA ========================= -->
+
+      <section class="section-padding bg-light">
+        <div class="container">
+          <div class="ds-release">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+                  <span class="badge text-bg-primary">
+                    <i class="bi bi-rocket-takeoff me-1"></i>
+                    Start your quest
+                  </span>
+                </div>
+
+                <h2 class="h2 fw-bold">
+                  Don't just learn PHP.
+                  <span class="text-gradient">Build with it.</span>
+                </h2>
+
+                <p class="lead text-secondary mt-3 mb-0">
+                  Start with the first project and progressively work toward
+                  production-level applications.
+                </p>
+              </div>
+
+              <div class="col-lg-4">
+                <div
+                  class="card h-100 border-0 shadow-sm rounded-4 p-3 p-md-4"
+                  id="ctaFeatures"
+                ></div>
+                <div class="d-grid mt-3">
+                  <a href="./apps.php" class="btn btn-primary btn-lg">
+                    Start building <i class="bi bi-arrow-right ms-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================= FAQ ========================= -->
+
+      <section class="section-padding">
+        <div class="container">
+          <div class="text-center mx-auto section-heading">
+            <span class="ds-eyebrow">
+              <i class="bi bi-question-circle"></i>
+              Frequently asked
+            </span>
+
+            <h2 class="h2 fw-bold my-2">Learn through real projects.</h2>
+          </div>
+
+          <div class="accordion col-lg-10 mx-auto" id="faq"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================= FOOTER ========================= -->
+
+    <footer class="bg-light border-top pt-5 pb-4 text-secondary">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <a
+              href="#"
+              class="d-inline-flex align-items-center gap-2 text-decoration-none text-dark fw-semibold"
+            >
+              <img
+                class="brand-logo"
+                src="assets/images/masterquest-logo.svg"
+                width="40"
+                height="40"
+                alt=""
+              />
+              <span>MasterQuest PHP</span>
+            </a>
+
+            <p class="text-secondary small mt-3 mb-3">
+              A project-based learning journey for developers who want to build
+              practical PHP and MySQL applications.
+            </p>
+            <span class="badge badge-soft rounded-pill px-3 py-2">
+              <i class="bi bi-code-slash me-1"></i> Learn by building
+            </span>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3 class="h6 fw-bold text-dark mb-3">Explore</h3>
+
+            <div id="footerExplore"></div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h3 class="h6 fw-bold text-dark mb-3">Projects</h3>
+
+            <div id="footerProjects"></div>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <h3 class="h6 fw-bold text-dark mb-3">Stack</h3>
+
+            <div id="footerStack"></div>
+          </div>
+        </div>
+
+        <hr class="my-4 border-secondary-subtle" />
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2"
+        >
+          <p class="small text-secondary mb-0">
+            Made for builders.
+            <span class="fw-semibold text-dark">MasterQuest PHP</span> — Learn.
+            Build. Master.
+          </p>
+
+          <p class="small text-secondary mb-0">
+            © <span id="currentYear"></span> All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========================= UTILITIES ========================= -->
+
+    <button
+      id="backToTop"
+      class="back-to-top"
+      type="button"
+      aria-label="Back to top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <div id="toast" class="ds-toast" role="status" aria-live="polite"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/home.js"></script>
+  </body>
+</html>
