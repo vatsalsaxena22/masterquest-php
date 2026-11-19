@@ -60,7 +60,7 @@ const products = [
       "Lead storage and search",
       "Admin lead management",
     ],
-    url: "/contact-lead-manager",
+    url: "#",
   },
   {
     no: "03",
@@ -78,7 +78,7 @@ const products = [
       "Moderation controls",
       "Admin dashboard",
     ],
-    url: "/guestbook-review-manager",
+    url: "#",
   },
   {
     no: "04",
@@ -96,7 +96,7 @@ const products = [
       "Publishing workflow",
       "Pagination-ready listings",
     ],
-    url: "/business-blog-cms",
+    url: "#",
   },
   {
     no: "05",
@@ -114,7 +114,7 @@ const products = [
       "Session management",
       "Profile management",
     ],
-    url: "/customer-login-portal",
+    url: "#",
   },
   {
     no: "06",
@@ -132,7 +132,7 @@ const products = [
       "Customer records",
       "Admin event management",
     ],
-    url: "/event-booking-system",
+    url: "#",
   },
   {
     no: "07",
@@ -150,7 +150,7 @@ const products = [
       "Order management",
       "Payment integration-ready",
     ],
-    url: "/ecommerce-store",
+    url: "#",
   },
   {
     no: "08",
@@ -168,7 +168,7 @@ const products = [
       "User accounts",
       "Moderation foundation",
     ],
-    url: "/community-forum",
+    url: "#",
   },
   {
     no: "09",
@@ -186,7 +186,7 @@ const products = [
       "Stock tracking",
       "Reports and dashboards",
     ],
-    url: "/inventory-management-erp",
+    url: "#",
   },
   {
     no: "10",
@@ -204,7 +204,7 @@ const products = [
       "Media uploads",
       "WYSIWYG editor-ready",
     ],
-    url: "/business-cms-platform",
+    url: "#",
   },
 ];
 
@@ -212,7 +212,7 @@ const stack = [
   ["bi-filetype-html", "HTML5", "Semantic structure"],
   ["bi-filetype-css", "CSS3", "Responsive design system"],
   ["bi-filetype-js", "JavaScript", "Interactions & UX"],
-  ["bi-bootstrap", "Bootstrap 5.3.8", "Grid & components"],
+  ["bi-bootstrap", "Bootstrap", "Grid & components"],
   ["bi-filetype-php", "PHP", "Server-side logic"],
   ["bi-database", "MySQL", "Reliable data storage"],
   ["bi-bootstrap-reboot", "Bootstrap Icons", "Lightweight UI icons"],

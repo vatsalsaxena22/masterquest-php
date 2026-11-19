@@ -6,8 +6,9 @@ $page_title = 'Apps | MasterQuest';
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#595c8e" />
+    <link rel="icon" href="assets/images/masterquest-logo.svg" type="image/svg+xml" />
     <meta name="description" content="Explore MasterQuest apps and practice building real projects from beginner to advanced.">
     <title><?= htmlspecialchars($page_title, ENT_QUOTES, 'UTF-8') ?></title>
 
@@ -23,7 +24,7 @@ $page_title = 'Apps | MasterQuest';
             <a href="index.html" class="btn btn-outline-secondary rounded-pill px-3">
                 <i class="bi bi-arrow-left me-2" aria-hidden="true"></i>Back to MasterQuest
             </a>
-            <a href="index.php" class="d-inline-flex align-items-center gap-2 text-decoration-none text-body fw-semibold">
+            <a href="index.html" class="d-inline-flex align-items-center gap-2 text-decoration-none text-body fw-semibold">
                 <img src="assets/images/masterquest-logo.svg" width="32" height="32" alt="" class="flex-shrink-0">
                 <span>MasterQuest</span>
             </a>
@@ -31,7 +32,7 @@ $page_title = 'Apps | MasterQuest';
 
         <!-- Page intro -->
         <header class="apps-header mb-5">
-            <span class="ds-eyebrow d-inline-flex align-items-center gap-2 mb-3">
+            <span class="badge text-bg-primary d-inline-flex align-items-center gap-2 mb-3">
                 <i class="bi bi-grid-1x2-fill" aria-hidden="true"></i>
                 PROJECT LIBRARY
             </span>

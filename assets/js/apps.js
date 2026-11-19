@@ -13,7 +13,7 @@ const apps = [
     "Learn form handling, validation and basic lead management.",
     "Beginner",
     "bi-person-lines-fill",
-    "/contact-lead-manager",
+    "#",
   ],
   [
     "03",
@@ -21,7 +21,7 @@ const apps = [
     "Build a review system with submissions, moderation and approval.",
     "Beginner",
     "bi-chat-square-heart",
-    "/guestbook-review-manager",
+    "#",
   ],
   [
     "04",
@@ -29,7 +29,7 @@ const apps = [
     "Create a publishing platform with posts, categories and administration.",
     "Intermediate",
     "bi-newspaper",
-    "/business-blog-cms",
+    "#",
   ],
   [
     "05",
@@ -37,7 +37,7 @@ const apps = [
     "Learn authentication, sessions, password hashing and user profiles.",
     "Intermediate",
     "bi-person-lock",
-    "/customer-login-portal",
+    "#",
   ],
   [
     "06",
@@ -45,7 +45,7 @@ const apps = [
     "Build events, registrations, tickets and booking workflows.",
     "Intermediate",
     "bi-calendar2-check",
-    "/event-booking-system",
+    "#",
   ],
   [
     "07",
@@ -53,7 +53,7 @@ const apps = [
     "Build products, cart, checkout, orders and payment workflows.",
     "Advanced",
     "bi-cart3",
-    "/ecommerce-store",
+    "#",
   ],
   [
     "08",
@@ -61,7 +61,7 @@ const apps = [
     "Build discussions, topics, replies, users and moderation.",
     "Advanced",
     "bi-chat-dots",
-    "/community-forum",
+    "#",
   ],
   [
     "09",
@@ -69,7 +69,7 @@ const apps = [
     "Manage products, suppliers, stock and business reports.",
     "Advanced",
     "bi-boxes",
-    "/inventory-management-erp",
+    "#",
   ],
   [
     "10",
@@ -77,7 +77,7 @@ const apps = [
     "Build a complete CMS with pages, posts, media, users and roles.",
     "Advanced",
     "bi-window-stack",
-    "/business-cms-platform",
+    "#",
   ],
 ];
 

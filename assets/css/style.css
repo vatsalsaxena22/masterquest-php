@@ -1,17 +1,17 @@
 /* MasterQuest | Bootstrap-first page styling */
 :root {
-  --ds-primary: #777bb4;
-  --ds-primary-dark: #4f5487;
-  --ds-primary-darker: #3f426c;
+  --ds-primary: #595c8e;
+  --ds-primary-dark: #454976;
+  --ds-primary-darker: #2e3050;
   --ds-primary-light: #eeeff8;
   --ds-primary-soft: #f6f6fb;
   --ds-text: #1f2937;
-  --ds-muted: #737373;
-  --ds-border: #e5e7eb;
-  --bs-primary: #777bb4;
-  --bs-primary-rgb: 119, 123, 180;
-  --bs-link-color: #4f5487;
-  --bs-link-hover-color: #3f426c;
+  --ds-muted: #606060;
+  --ds-border: #b3b3b3;
+  --bs-primary: #595c8e;
+  --bs-primary-rgb: 89, 92, 142;
+  --bs-link-color: #41446e;
+  --bs-link-hover-color: #383b60;
   --bs-font-sans-serif:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -62,16 +62,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.ds-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--ds-primary-dark);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-}
+
 .section-padding {
   padding-block: clamp(3.75rem, 7vw, 6rem);
 }
